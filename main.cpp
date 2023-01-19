@@ -10,13 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include <iostream>
 #include "main.hpp"
 
 int main()
 {
-	std::cout << "Enter a command: vi (vector int), vc (vector char), mi (map int, int), mc (map int, char): ";  
+	std::cout << "Enter a command: vi (vector int), vc (vector char), mi (map int, int), mc (map char, char): ";  
 	std::string command;
 	std::cin >> command;
 	if (command.compare("vi") == 0)
